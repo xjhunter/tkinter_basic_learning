@@ -36,23 +36,26 @@ https://tkdocs.com/tutorial/index.html
 
   
 
+## How to use
+
+If you directly click on the webpage, you won't be able to open the ipynb format file, it is a jupyter notebook file format. So you can use jupyter notebook to import the repo dir jupyter_proj.
 
 
 
+### Add repo dir jupyter_proj to your  jupyter notebook config file
 
+- config file location
 
+  `C:\Users\xxx\.jupyter\jupyter_notebook_config.py`
 
+- add jupyter_pro dir path in config file
 
+  ```shell
+  # c.NotebookApp.notebook_dir = ''
+  c.NotebookApp.notebook_dir = r'D:\xxx\jupyter_proj'
+  ```
 
-
-
-
-
-
-
-
-
-
+  
 
 
 
